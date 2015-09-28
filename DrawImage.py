@@ -65,7 +65,7 @@ for customer_detail in details["Sheet1"]:
             evening = Image.open("evening.png").resize((25,25),Image.ANTIALIAS)
             im.paste(evening,(320,240),evening)
 
-	photo = Image.open("1.png")
+	photo = Image.open(customer_detail[6])
 	size = 180,300
 	#photo.thumbnail(size,Image.ANTIALIAS)
 	photo = photo.resize((160,160),Image.ANTIALIAS)
