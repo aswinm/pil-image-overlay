@@ -5,7 +5,7 @@ import ImageFont, ImageDraw, ImageOps
 
 im=Image.open("2.png")
 
-f = ImageFont.truetype("/home/aswin/evalvon/rajpark/stat/css/avantgarde.otf",14)
+f = ImageFont.truetype("avantgarde.otf",14)
 
 name_txt=Image.new('L', (500,500))
 name_block = ImageDraw.Draw(name_txt)
