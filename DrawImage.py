@@ -1,4 +1,3 @@
-# Demo to add rotated text to an image using PIL
 
 import Image
 import ImageFont, ImageDraw, ImageOps
